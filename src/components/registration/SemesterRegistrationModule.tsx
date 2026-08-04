@@ -523,6 +523,7 @@ export const SemesterRegistrationModule: React.FC<SemesterRegistrationModuleProp
                 <p className="text-xs sm:text-sm text-blue-200/90 mt-1 font-mono">
                   Scholar ID: <span className="text-white font-bold">{student.scholarId}</span> • {student.department} • 2nd Year UG
                 </p>
+              </div>
             </div>
           </div>
 
