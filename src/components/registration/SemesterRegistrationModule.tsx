@@ -523,34 +523,6 @@ export const SemesterRegistrationModule: React.FC<SemesterRegistrationModuleProp
                 <p className="text-xs sm:text-sm text-blue-200/90 mt-1 font-mono">
                   Scholar ID: <span className="text-white font-bold">{student.scholarId}</span> • {student.department} • 2nd Year UG
                 </p>
-              </div>
-
-              {/* Allotment Deadline Widget */}
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 p-3.5 rounded-xl text-center shrink-0 min-w-[240px]">
-                <div className="flex items-center justify-center gap-1.5 text-xs text-blue-200 font-semibold mb-1">
-                  <Clock className="w-3.5 h-3.5 text-amber-300" />
-                  <span>Allotment Deadline: 8th Aug 11:59 PM</span>
-                </div>
-                <div className="grid grid-cols-4 gap-1.5 py-1">
-                  <div className="bg-blue-950/80 p-1.5 rounded-lg border border-blue-400/20">
-                    <span className="block text-sm font-bold font-mono text-white">03</span>
-                    <span className="text-[9px] text-blue-300 uppercase tracking-tighter block">DAYS</span>
-                  </div>
-                  <div className="bg-blue-950/80 p-1.5 rounded-lg border border-blue-400/20">
-                    <span className="block text-sm font-bold font-mono text-white">21</span>
-                    <span className="text-[9px] text-blue-300 uppercase tracking-tighter block">HOURS</span>
-                  </div>
-                  <div className="bg-blue-950/80 p-1.5 rounded-lg border border-blue-400/20">
-                    <span className="block text-sm font-bold font-mono text-white">38</span>
-                    <span className="text-[9px] text-blue-300 uppercase tracking-tighter block">MINS</span>
-                  </div>
-                  <div className="bg-blue-950/80 p-1.5 rounded-lg border border-blue-400/20">
-                    <span className="block text-sm font-bold font-mono text-white">37</span>
-                    <span className="text-[9px] text-blue-300 uppercase tracking-tighter block">SECS</span>
-                  </div>
-                </div>
-                <p className="text-[10px] text-blue-200/80 mt-1">Window Closes: August 8, 2026 at 11:59 PM</p>
-              </div>
             </div>
           </div>
 
