@@ -1,0 +1,6 @@
+{
+  "name": "Campus Portal",
+  "description": "Smart Digital University Management System - Premium ERP Portal presentation prototype.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
