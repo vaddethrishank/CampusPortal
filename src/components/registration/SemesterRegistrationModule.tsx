@@ -555,7 +555,7 @@ export const SemesterRegistrationModule: React.FC<SemesterRegistrationModuleProp
             <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">SUBMISSION STATUS</span>
               <p className="text-sm font-bold text-blue-700">Pending Members</p>
-              <p className="text-[10px] text-slate-500 mt-0.5">Awaiting Varshit's confirmation</p>
+              <p className="text-[10px] text-slate-500 mt-0.5">Awaiting Thrishank's confirmation</p>
             </div>
           </div>
 
@@ -587,16 +587,16 @@ export const SemesterRegistrationModule: React.FC<SemesterRegistrationModuleProp
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Group Slot Confirmations</p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {/* Slot 1: Leader (Thrishank) */}
+                {/* Slot 1: Leader (Varshit Sai) */}
                 <div className="p-4 bg-blue-50/50 rounded-2xl border border-blue-200 relative">
                   <div className="flex items-start justify-between gap-2 mb-3">
-                    {renderMonogram("Thrishank", "TH", "bg-blue-600 text-white")}
+                    {renderMonogram("Varshit Sai", "VS", "bg-blue-600 text-white")}
                     <span className="px-2.5 py-0.5 bg-emerald-100 text-emerald-800 text-[10px] font-bold rounded-full flex items-center gap-1">
                       <Check className="w-3 h-3" /> Accepted
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900">Thrishank (Leader)</h4>
+                    <h4 className="text-sm font-bold text-slate-900">Varshit Sai (Leader)</h4>
                     <p className="text-xs text-slate-600 font-mono mt-0.5">Scholar ID: 2511096</p>
                     <p className="text-[11px] text-slate-500 mt-1">Computer Science • 2nd Year</p>
                   </div>
@@ -617,16 +617,16 @@ export const SemesterRegistrationModule: React.FC<SemesterRegistrationModuleProp
                   </div>
                 </div>
 
-                {/* Slot 3: Varshit */}
+                {/* Slot 3: Thrishank */}
                 <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 relative">
                   <div className="flex items-start justify-between gap-2 mb-3">
-                    {renderMonogram("Varshit", "VA", "bg-emerald-600 text-white")}
+                    {renderMonogram("Thrishank", "TH", "bg-emerald-600 text-white")}
                     <span className="px-2.5 py-0.5 bg-amber-100 text-amber-800 text-[10px] font-bold rounded-full flex items-center gap-1">
                       <Clock className="w-3 h-3" /> Pending
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900">Varshit</h4>
+                    <h4 className="text-sm font-bold text-slate-900">Thrishank</h4>
                     <p className="text-xs text-slate-600 font-mono mt-0.5">Scholar ID: 2512089</p>
                     <p className="text-[11px] text-slate-500 mt-1">Electronics & Comm • 2nd Year</p>
                   </div>

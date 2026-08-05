@@ -216,7 +216,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 rounded-lg text-xs font-semibold transition-colors border border-slate-200"
               >
                 <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-                <span>Instant Login as Thrishank (Scholar ID: 2511096)</span>
+                <span>Instant Login as Varshit Sai (Scholar ID: 2511096)</span>
               </button>
             </div>
 

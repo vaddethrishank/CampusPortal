@@ -9,12 +9,12 @@ import {
 } from '../types';
 
 export const initialStudentProfile: StudentProfile = {
-  name: "Thrishank",
+  name: "Varshit Sai",
   scholarId: "2511096",
   department: "Computer Science",
   program: "2nd Year UG",
   semester: 4,
-  email: "thrishank.2511096@nit.ac.in",
+  email: "varshitsai.2511096@nit.ac.in",
   phone: "+91 98765 43210",
   hostelStatus: "Hostel Block H8 (Triple Sharing)",
   roomNumber: "H8-204",
@@ -62,12 +62,12 @@ export const initialStudentProfile: StudentProfile = {
 export const initialPreferenceGroupMembers: RoommateRequest[] = [
   {
     scholarId: "2511096",
-    name: "Thrishank",
+    name: "Varshit Sai",
     department: "Computer Science",
     year: "2nd Year",
     status: "Accepted",
     role: "Leader",
-    initials: "TH",
+    initials: "VS",
     badgeColor: "bg-blue-600 text-white"
   },
   {
@@ -82,12 +82,12 @@ export const initialPreferenceGroupMembers: RoommateRequest[] = [
   },
   {
     scholarId: "2512089",
-    name: "Varshit",
+    name: "Thrishank",
     department: "Electronics & Comm",
     year: "2nd Year",
     status: "Pending",
     role: "Member",
-    initials: "VA",
+    initials: "TH",
     badgeColor: "bg-emerald-600 text-white"
   }
 ];

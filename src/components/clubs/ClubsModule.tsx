@@ -97,7 +97,7 @@ export const ClubsModule: React.FC<ClubsModuleProps> = ({ student }) => {
       name: "Robotics & Automation Society (RAS)",
       category: "Technical",
       description: "Designing autonomous rovers, microcontroller programming, and drone hardware systems.",
-      leadName: "Thrishank",
+      leadName: "Varshit Sai",
       leadRole: "Core Lead",
       membersCount: 98,
       meetingTime: "Fridays at 4:30 PM",
